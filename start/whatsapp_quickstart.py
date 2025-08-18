@@ -22,21 +22,6 @@ APP_SECRET = os.getenv("APP_SECRET")
 
 
 # --------------------------------------------------------------
-# REMOVE: hard-coded env variables
-# --------------------------------------------------------------
-# ACCESS_TOKEN="EAAK3CDQmZAFYBPGPOdTOu1xJKdq2mV948dOlmKA5KvEb4SrdsRmXWsZAo05JqOVw5MzYoOZA6gE50QZCyKxjOKlprbZBtzM9UsGVceitNWkXZBshsfv0dL9YdBqpIOQl6Dbq6LHRmKXc5rOQO4If8W9ZBJ1Id7IEhjfN4hK4SsdeNS7DcgA62LHHZAlG7h9ZCKAMH1FFHNELZBHx0LViy8GNg2ZBU4bqcQ3YoMTBXVcoMwmI6HR98YZD"
-
-# APP_ID="764195815973974"
-# APP_SECRET="24bbf8418390dbda8083f2d74e45faee"
-# # Your WhatsApp number with country code (e.g., +31612345678)
-# RECIPIENT_WAID="972525699466"
-# VERSION="v19.0"
-# PHONE_NUMBER_ID="787673037752344"
-
-
-
-
-# --------------------------------------------------------------
 # Send a template WhatsApp message
 # --------------------------------------------------------------
 
