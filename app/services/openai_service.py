@@ -19,6 +19,8 @@ assistant_prompt = (
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_ASSISTANT_ID = os.getenv("OPENAI_ASSISTANT_ID")
+# assistant_prompt = 
+
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
@@ -37,7 +39,7 @@ def create_assistant(file):
         name="GuardianAlert Assistant",
         instructions=assistant_prompt,
         tools=[],                               # former: {"type": "retrieval"}
-        model="gpt-4-1106-preview",
+        model="gpt-40-mini",
         # file_ids=[file.id],
     )
     return assistant
